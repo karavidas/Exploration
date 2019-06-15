@@ -16,7 +16,8 @@ public class Gaze : MonoBehaviour
     public bool activate = false;
     public bool move = false;
     public int distanceOfRay = 100;
-    private RaycastHit _hit;
+    public RaycastHit _hit;
+    public Rigidbody body;
 
 
     // Update is called once per frame
@@ -46,6 +47,7 @@ public class Gaze : MonoBehaviour
             else if (imgGaze.fillAmount == 1 && _hit.rigidbody.tag == "Teleport")
             {
                 move = true;
+                body = _hit.rigidbody;
             }
 
         }

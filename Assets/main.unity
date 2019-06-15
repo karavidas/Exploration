@@ -2149,10 +2149,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 122823482}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abd2abcc6e0f32246b67dc7d27b1a5bd, type: 3}
+  m_Script: {fileID: 11500000, guid: f6debbe86130d5e42a468171c9dce114, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnPoints: []
   gaze: {fileID: 1990541699}
   player: {fileID: 1990541692}
 --- !u!1001 &123596604
@@ -4742,13 +4741,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 318180511}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abd2abcc6e0f32246b67dc7d27b1a5bd, type: 3}
+  m_Script: {fileID: 11500000, guid: f6debbe86130d5e42a468171c9dce114, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnPoints:
-  - {fileID: 666835148}
-  - {fileID: 122823483}
-  - {fileID: 473587953}
   gaze: {fileID: 1990541699}
   player: {fileID: 1990541692}
 --- !u!4 &320005265 stripped
@@ -6642,10 +6637,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 473587952}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abd2abcc6e0f32246b67dc7d27b1a5bd, type: 3}
+  m_Script: {fileID: 11500000, guid: f6debbe86130d5e42a468171c9dce114, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnPoints: []
   gaze: {fileID: 1990541699}
   player: {fileID: 1990541692}
 --- !u!1001 &474448539
@@ -9469,10 +9463,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 666835145}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abd2abcc6e0f32246b67dc7d27b1a5bd, type: 3}
+  m_Script: {fileID: 11500000, guid: f6debbe86130d5e42a468171c9dce114, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnPoints: []
   gaze: {fileID: 1990541699}
   player: {fileID: 1990541692}
 --- !u!114 &666835150
@@ -25862,6 +25855,7 @@ MonoBehaviour:
   activate: 0
   move: 0
   distanceOfRay: 100
+  body: {fileID: 0}
 --- !u!195 &1990541700
 NavMeshAgent:
   m_ObjectHideFlags: 0
