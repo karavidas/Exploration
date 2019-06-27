@@ -6,15 +6,10 @@ public class TeleportFlowers : MonoBehaviour
 {
     public Gaze gaze;
     public GameObject player;
-    float[] dist = new float[4];
+    float[] dist = new float[5];
     int i = 0;
     private TeleportFlowers flower;
     float min = 1000;
-
-    void Start()
-    {
-        //CalculateDist(this);
-    }
 
     void Update()
     {
@@ -33,7 +28,6 @@ public class TeleportFlowers : MonoBehaviour
 
             dist[i] = Mathf.Sqrt(Mathf.Pow(body.transform.position.x - tp.gameObject.transform.position.x, 2f) +
                         Mathf.Pow(body.transform.position.z - tp.gameObject.transform.position.z, 2f));
-            //Debug.Log("To i einai" + i + "Exei apostasi" + dist[i]);
             if (dist[i] < min && dist[i] > 0)
             {
                 min = dist[i]; 
